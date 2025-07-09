@@ -17,4 +17,4 @@
 
 //in dist folder we write compiler code for typescript or to run ts-node
 //in src folder we write typescript code
-//Decleration file for typescript code in dist folder is in src folder it is called index.d.ts
+//Decleration file for typescript code in dist folder is in src folder it is called index.d.ts file 
