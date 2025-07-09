@@ -6,9 +6,15 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist",
+    "outDir": "./dist",   //used to store compiled code. only this code will run
     "rootDir": "./src"
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*"],     //used to include files to compile
+  "exclude": ["node_modules"]  //used to exclude the file which not compile and run that code
 }
+
+
+
+//in dist folder we write compiler code for typescript or to run ts-node
+//in src folder we write typescript code
+//Decleration file for typescript code in dist folder is in src folder it is called index.d.ts
